@@ -1,5 +1,5 @@
-#ifndef CPPKATA_MYCLASS_HXX
-#define CPPKATA_MYCLASS_HXX
+#ifndef MYLIB_MYCLASS_HXX
+#define MYLIB_MYCLASS_HXX
 
 
 class MyClass
@@ -16,4 +16,4 @@ private:
 };
 
 
-#endif  // CPPKATA_MYCLASS_HXX
+#endif  // MYLIB_MYCLASS_HXX

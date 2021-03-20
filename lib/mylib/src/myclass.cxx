@@ -1,5 +1,6 @@
 #include "myclass.hxx"
 
+
 MyClass::MyClass()
     : _value(0)
 {}

@@ -43,8 +43,7 @@ set_target_properties(${target_name}
 	PROPERTIES
 		RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin
 )
-add_custom_command(TARGET ${target_name}
-	POST_BUILD
+add_custom_command(TARGET ${target_name} POST_BUILD
 	COMMAND ${CMAKE_COMMAND} -E copy_if_different
 		$<TARGET_FILE:swig::shared>
 		$<TARGET_FILE_DIR:${target_name}>
