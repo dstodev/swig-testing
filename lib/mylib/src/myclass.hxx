@@ -15,4 +15,5 @@ private:
 	int _value;
 };
 
+
 #endif  // CPPKATA_MYCLASS_HXX
